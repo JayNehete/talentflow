@@ -2,22 +2,22 @@
 
 ![Java](https://img.shields.io/badge/Java-17-blue) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen) ![Docker](https://img.shields.io/badge/Docker-blue) ![Kubernetes](https://img.shields.io/badge/Kubernetes-blue)
 
-[cite_start]Talent Flow is a job recruitment platform built on a microservices architecture using Spring Boot and Spring Cloud. This project demonstrates a transition from a traditional monolithic design to a scalable, resilient, and observable cloud-native system.
+Talent Flow is a job recruitment platform built on a microservices architecture using Spring Boot and Spring Cloud. This project demonstrates a transition from a traditional monolithic design to a scalable, resilient, and observable cloud-native system.
 
 ## Key Features
 
-* [cite_start]**Distributed & Resilient:** Built with Spring Cloud and Resilience4j, implementing patterns like Circuit Breakers, Retries, and Rate Limiting for fault-tolerant communication.
-* [cite_start]**Centralized & Observable:** Manages configurations for all services via Spring Cloud Config Server and provides end-to-end distributed tracing with Zipkin and Micrometer.
-* [cite_start]**Dynamic Routing & Discovery:** Uses a Spring Cloud Gateway as a single entry point and Eureka Server for dynamic service registration and discovery.
-* [cite_start]**Asynchronous Communication:** Integrates RabbitMQ for asynchronous, event-driven communication between services, ensuring loose coupling and reliability.
-* [cite_start]**Containerized:** Fully containerized with Docker and orchestrated with both Docker Compose and Kubernetes manifests for easy setup and scalable deployment.
+* **Distributed & Resilient:** Built with Spring Cloud and Resilience4j, implementing patterns like Circuit Breakers, Retries, and Rate Limiting for fault-tolerant communication.
+* **Centralized & Observable:** Manages configurations for all services via Spring Cloud Config Server and provides end-to-end distributed tracing with Zipkin and Micrometer.
+* **Dynamic Routing & Discovery:** Uses a Spring Cloud Gateway as a single entry point and Eureka Server for dynamic service registration and discovery.
+* **Asynchronous Communication:** Integrates RabbitMQ for asynchronous, event-driven communication between services, ensuring loose coupling and reliability.
+* **Containerized:** Fully containerized with Docker and orchestrated with both Docker Compose and Kubernetes manifests for easy setup and scalable deployment.
 
 ## Technology Stack
 
 * **Backend:** Java 17, Spring Boot, Spring Cloud, Spring Data JPA, Resilience4j, OpenFeign
 * **DevOps:** Docker, Docker Compose, Kubernetes (MiniKube), Maven, Git
 * **Databases & Messaging:** PostgreSQL, RabbitMQ, H2 Database
-* [cite_start]**Observability & Service Mesh:** Eureka, Spring Cloud Gateway, Zipkin, Micrometer, Spring Boot Actuator
+* **Observability & Service Mesh:** Eureka, Spring Cloud Gateway, Zipkin, Micrometer, Spring Boot Actuator
 
 ## Getting Started
 
